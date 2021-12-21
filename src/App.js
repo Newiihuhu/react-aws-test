@@ -7,7 +7,7 @@ function App() {
 
   const fetchData = async () => {
     const result = await axios(
-      "https://edokog0if2.execute-api.ap-southeast-1.amazonaws.com/guitar/"
+      "https://ulipmuyyed.execute-api.ap-southeast-1.amazonaws.com/dev/"
     );
     setData(result.data.body);
   };
